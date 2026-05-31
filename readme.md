@@ -11,9 +11,9 @@ The system is split across two packages for performance:
 
 ---
 
-## Limitations & Deviations from the Original Paper
+## Limitations
 
-This implementation is **under development**. It currently has several architectural difference from the original:
+This implementation is **under development**. It currently has several difference from the original:
 
 * **Local Controller:** This repository currently uses a APF controller. Instead of predicting the movement of dynamic objects, It just keeps them in distance. The NMPC controller similar to the original paper will be implemented.
 * **Macro-Routing:** The `semantic_planner_node` currently uses a hardcoded NetworkX topological graph. You must manually configure the nodes and edges for your specific simulation/real-life map, or implement something like OSMnx when running in real-life.
