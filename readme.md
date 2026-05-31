@@ -1,4 +1,4 @@
-# CausalNav (Recreation) - Embodied AI Navigation Pipeline
+# Not CausalNav - Embodied AI Navigation Pipeline
 
 ## Overview
 
